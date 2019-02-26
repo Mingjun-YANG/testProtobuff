@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+package com.demo.msg;
+ 
+option java_outer_classname = "TestMessage";
+ 
+message Words {
+    required string message = 1;
+}
